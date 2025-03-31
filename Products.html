@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Barbershop</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header class="header-main">
+        <nav class="nav-primary">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="The Bespoke Chair" />
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Our Team.html">Our Team</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="book.html" class="cta-button">Reserve a Chair</a></li>
+            </ul>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <!-- Hero Section -->
+        <section class="hero-products">
+            <div class="content-wrapper">
+                <span class="hero-eyebrow">Premium Grooming</span>
+                <h1>Refined Products.<br>Designed for the Modern Gentleman.</h1>
+                <p class="hero-subtitle">From pomades to beard oils — every product is chosen for performance, feel, and scent.</p>
+                <div class="accent-line"></div>
+            </div>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="products-grid">
+            <div class="content-wrapper">
+                <div class="product-categories">
+                    <button class="category-btn active">All Products</button>
+                    <button class="category-btn">Hair Care</button>
+                    <button class="category-btn">Beard Care</button>
+                    <button class="category-btn">Skincare</button>
+                </div>
+
+                <div class="products-container">
+                    <!-- Product Card -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Images/Matte Finish Pomade.jpg" alt="Matte Finish Pomade">
+                            <div class="product-badge">Best Seller</div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Matte Finish Pomade</h3>
+                            <p>Strong hold with natural finish. Perfect for modern styles.</p>
+                            <div class="product-meta">
+                                <span class="product-price">R190</span>
+                                <button class="product-cta">Available In-Store</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat for other products -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Product -->
+        <section class="featured-product">
+            <div class="content-wrapper">
+                <div class="featured-content">
+                    <div class="featured-image">
+                        <img src="Images/The Gentleman's Essential Kit.jpg" alt="The Gentleman's Essential Kit">
+                    </div>
+                    <div class="featured-info">
+                        <span class="featured-label">Featured Collection</span>
+                        <h2>The Gentleman's Essential Kit</h2>
+                        <p>Everything you need for the perfect grooming routine. Includes our signature pomade, beard oil, and premium comb.</p>
+                        <div class="featured-price">R590</div>
+                        <button class="button primary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="product-testimonials">
+            <div class="content-wrapper">
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p>"Best beard oil I've ever used. Smells incredible."</p>
+                        <cite>– Thabiso K., Durban</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="products-cta">
+            <div class="content-wrapper">
+                <h2>Style doesn't end at the chair.<br>Bring it home.</h2>
+                <button class="button primary">Shop Our Collection</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <!-- Logo -->
+                <div class="footer-brand">
+                    <img src="Images/logo.png" alt="The Bespoke Chair">
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <a href="service.html">Services</a>
+                    <a href="book.html">Book Now</a>
+                    <a href="about.html">About</a>
+                    <a href="Our Team.html">Our Team</a>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <a href="tel:+27123456789" class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="#C4A161" stroke-width="2"/>
+                        </svg>
+                        +27 12 345 6789
+                    </a>
+                    <a href="mailto:info@bespokechair.com" class="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#C4A161" stroke-width="2"/>
+                            <path d="M22 6l-10 7L2 6" stroke="#C4A161" stroke-width="2"/>
+                        </svg>
+                        info@bespokechair.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Bespoke Chair. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C4A161" stroke-width="2">
+                            <rect width="20" height="20" x="2" y="2" rx="5"/>
+                            <circle cx="12" cy="12" r="4"/>
+                            <circle cx="17.5" cy="6.5" r="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C4A161" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Add this line before closing body tag -->
+    <script src="Javascript.js"></script>
+</body>
+</html>
